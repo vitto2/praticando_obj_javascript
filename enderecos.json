@@ -1,0 +1,214 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "João da Silva",
+      "email": "joao.silva@example.com",
+      "telefone": "(11) 98765-4321",
+      "endereco": {
+        "logradouro": "Rua A",
+        "numero": 123,
+        "bairro": "Centro",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "cep": "01234-567"
+      } 
+    },
+    {
+      "id": 2,
+      "nome": "Maria Santos",
+      "email": "maria.santos@example.com",
+      "telefone": "(21) 12345-6789",
+      "endereco": {
+        "logradouro": "Avenida B",
+        "numero": 456,
+        "bairro": "Vila Nova",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "cep": "98765-432"
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Pedro Oliveira",
+      "email": "pedro.oliveira@example.com",
+      "telefone": "(31) 98765-4321",
+      "endereco": {
+        "logradouro": "Rua C",
+        "numero": 789,
+        "bairro": "Jardim das Flores",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "54321-098"
+      }
+    },
+    {
+      "id": 4,
+      "nome": "Ana Souza",
+      "email": "ana.souza@example.com",
+      "telefone": "(11) 55555-5555",
+      "endereco": {
+        "logradouro": "Rua D",
+        "numero": 222,
+        "bairro": "Liberdade",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "12345-678"
+      }
+    },
+    {
+      "id": 5,
+      "nome": "Carlos Ferreira",
+      "email": "carlos.ferreira@example.com",
+      "telefone": "(21) 99999-9999",
+      "endereco": {
+        "logradouro": "Avenida E",
+        "numero": 789,
+        "bairro": "Copacabana",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "54321-987"
+      }
+    },
+    {
+      "id": 6,
+      "nome": "Laura Costa",
+      "email": "laura.costa@example.com",
+      "telefone": "(31) 44444-4444",
+      "endereco": {
+        "logradouro": "Rua F",
+        "numero": 555,
+        "bairro": "Barra da Tijuca",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "54321-123"
+      }
+    },
+    {
+      "id": 7,
+      "nome": "Rafaela Lima",
+      "email": "rafaela.lima@example.com",
+      "telefone": "(11) 77777-7777",
+      "endereco": {
+        "logradouro": "Avenida G",
+        "numero": 987,
+        "bairro": "Vila Mariana",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01234-567"
+      }
+    },
+    {
+      "id": 8,
+      "nome": "Lucas Almeida",
+      "email": "lucas.almeida@example.com",
+      "telefone": "(31) 11111-1111",
+      "endereco": {
+        "logradouro": "Rua H",
+        "numero": 111,
+        "bairro": "Centro",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "54321-654"
+      }
+    },
+    {
+      "id": 9,
+      "nome": "Juliana Pereira",
+      "email": "juliana.pereira@example.com",
+      "telefone": "(21) 33333-3333",
+      "endereco": {
+        "logradouro": "Avenida I",
+        "numero": 222,
+        "bairro": "Ipanema",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "54321-876"
+      }
+    },
+    {
+      "id": 10,
+      "nome": "Fernando Carvalho",
+      "email": "fernando.carvalho@example.com",
+      "telefone": "(11) 88888-8888",
+      "endereco": {
+        "logradouro": "Rua J",
+        "numero": 333,
+        "bairro": "Morumbi",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01234-876"
+      }
+    }, 
+    {
+      "id": 11,
+      "nome": "Rafaela Ferreira",
+      "email": "rafaela.ferreira@example.com",
+      "telefone": "(11) 98765-4327",
+      "endereco": {
+      "logradouro": "Rua G",
+      "numero": 864,
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01234-573"
+      }
+    },
+    {
+      "id": 12,
+      "nome": "Camila Rodrigues",
+      "email": "camila.rodrigues@example.com",
+      "telefone": "(11) 98765-4326",
+      "endereco": {
+      "logradouro": "Rua F",
+      "numero": 135,
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01234-572"
+      }
+    }, 
+    {
+      "id": 13,
+      "nome": "Carlos Pereira",
+      "email": "carlos.pereira@example.com",
+      "telefone": "(11) 98765-4325",
+      "endereco": {
+      "logradouro": "Rua E",
+      "numero": 246,
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01234-571"
+      }
+    }, 
+    {
+      "id": 14,
+      "nome": "Ana Souza",
+      "email": "ana.souza@example.com",
+      "telefone": "(11) 98765-4324",
+      "endereco": {
+      "logradouro": "Rua D",
+      "numero": 987,
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01234-570"
+      }
+    },
+    {
+      "id": 15,
+      "nome": "Pedro Oliveira",
+      "email": "pedro.oliveira@example.com",
+      "telefone": "(11) 98765-4323",
+      "endereco": {
+      "logradouro": "Rua C",
+      "numero": 789,
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01234-569"
+      }
+    }
+  ]
+}
