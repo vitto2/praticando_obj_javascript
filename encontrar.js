@@ -87,11 +87,24 @@ function filterCepClientes(clientes,cep) {
     }
 }
 
+function editAddress(clientes,id,newAdress) { 
+
+    clientes.filter((client)=> { 
+        if(client.id === id) { 
+            client.endereco = newAdress
+        }
+    })
+
+    
+}
+
+
 module.exports = { 
     findUserWithId: findUserWithId, 
     findUserWithName: filterName,
     showNames: listClient,
     filterState: filterStateClientes,
     filterTel: filterTelClientes,
-    filterCep: filterCepClientes
+    filterCep: filterCepClientes,
+    editAddress: editAddress
 } ; 
