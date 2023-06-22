@@ -67,10 +67,31 @@ function filterTelClientes(clientes,telefone) {
         return "Não foi encontrado nenhum cliente com este número.";
     }
 }
+
+
+function filterCepClientes(clientes,cep) { 
+    
+    let filterClient = clientes.filter((client) => { 
+
+        const endereco = client.endereco; 
+
+        if(endereco.cep=== cep) { 
+            return client
+        } 
+    })
+
+    if(filterClient.length > 0) { 
+        return filterClient;
+    } else { 
+        return "Não foi encontrado nenhum cliente com este cep.";
+    }
+}
+
 module.exports = { 
     findUserWithId: findUserWithId, 
     findUserWithName: filterName,
     showNames: listClient,
     filterState: filterStateClientes,
-    filterTel: filterTelClientes
+    filterTel: filterTelClientes,
+    filterCep: filterCepClientes
 } ; 
