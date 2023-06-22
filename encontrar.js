@@ -51,9 +51,26 @@ function filterStateClientes(clientes,estado) {
     
 }
 
+function filterTelClientes(clientes,telefone) { 
+
+    let filterClient = clientes.filter((client) => { 
+        const tel = client.telefone; 
+
+        if(tel === telefone) { 
+            return client
+        } 
+    })
+
+    if(filterClient.length > 0) { 
+        return filterClient;
+    } else { 
+        return "Não foi encontrado nenhum cliente com este número.";
+    }
+}
 module.exports = { 
     findUserWithId: findUserWithId, 
     findUserWithName: filterName,
     showNames: listClient,
-    filterState: filterStateClientes
+    filterState: filterStateClientes,
+    filterTel: filterTelClientes
 } ; 
