@@ -98,6 +98,13 @@ function editAddress(clientes,id,newAdress) {
     
 }
 
+function removeClient(clientes,id) { 
+    const user = clientes.findIndex(function(element) { 
+        return element.id == id
+    }); 
+    
+    clientes.splice(user,1)
+}
 
 module.exports = { 
     findUserWithId: findUserWithId, 
@@ -106,5 +113,6 @@ module.exports = {
     filterState: filterStateClientes,
     filterTel: filterTelClientes,
     filterCep: filterCepClientes,
-    editAddress: editAddress
+    editAddress: editAddress,
+    removeClient: removeClient,
 } ; 
