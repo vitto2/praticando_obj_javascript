@@ -26,3 +26,6 @@ findUser.removeClient(clientes,1)
 findUser.removeClient(clientes,2)
 findUser.removeClient(clientes,3)
 
+
+findUser.characteresCount(clientes,9)
+

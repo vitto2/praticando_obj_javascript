@@ -102,8 +102,19 @@ function removeClient(clientes,id) {
     const user = clientes.findIndex(function(element) { 
         return element.id == id
     }); 
-    
+
     clientes.splice(user,1)
+}
+
+function characteres(clientes,id) { 
+    
+    const findClient = clientes.find(cliente => { 
+        return cliente.id === id
+    })
+
+    const nome = findClient.nome; 
+
+    console.log(`O nome ${nome} possui ${nome.length} caracteres incluindo os espaços.`)
 }
 
 module.exports = { 
@@ -115,4 +126,5 @@ module.exports = {
     filterCep: filterCepClientes,
     editAddress: editAddress,
     removeClient: removeClient,
+    characteresCount: characteres
 } ; 
