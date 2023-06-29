@@ -117,6 +117,15 @@ function characteres(clientes,id) {
     console.log(`O nome ${nome} possui ${nome.length} caracteres incluindo os espaços.`)
 }
 
+function characteresMedia(clientes) { 
+
+    const listNames = listClient(clientes)
+
+    const media = listNames.join(" ").replace(/\s/g, "").length / listNames.length;
+    
+    return media.toFixed(2)
+}
+
 module.exports = { 
     findUserWithId: findUserWithId, 
     findUserWithName: filterName,
@@ -126,5 +135,6 @@ module.exports = {
     filterCep: filterCepClientes,
     editAddress: editAddress,
     removeClient: removeClient,
-    characteresCount: characteres
+    characteresCount: characteres,
+    characteresMedia: characteresMedia
 } ; 

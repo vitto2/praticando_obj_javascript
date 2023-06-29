@@ -9,7 +9,7 @@ let listaClientes = findUser.showNames(clientes);
 const clientesSP = findUser.filterState(clientes,"RJ");
 const clientTel = findUser.filterTel(clientes,"(11) 98765-4327");
 const clientCep = findUser.filterCep(clientes,"54321-876");
-
+const mediaChar = findUser.characteresMedia(clientes);
 
 const adress = {
     "logradouro": "Caminho 71",
@@ -22,10 +22,6 @@ const adress = {
 
 console.log(listaClientes)
 findUser.editAddress(clientes,1,adress)
-findUser.removeClient(clientes,1)
-findUser.removeClient(clientes,2)
-findUser.removeClient(clientes,3)
-
-
 findUser.characteresCount(clientes,9)
+console.log(mediaChar)
 
